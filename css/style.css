@@ -1,0 +1,388 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  aspect-ratio: ;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  inset: 0;
+  width: 100%;
+  height: 58px;
+  background: #f8f8f8;
+  box-shadow: 0px 4px 40px -15px rgba(0, 0, 0, 0.25);
+  padding-top: 15px;
+}
+
+
+
+.Titulo{
+    font-family: 'Inter', sans-serif;
+    font-size: 30px
+}
+
+.botoes{
+
+    font-family: 'Inter', sans-serif;
+    margin-top: 10px;
+}
+
+
+.tag{
+    background-color: #2E245E;
+    color: #f8f8f8;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    padding: 10px 5px;
+    gap: 20px;
+    width: 95px;
+    height: 24px;
+    text-align: center;
+
+
+}
+.img{
+
+    margin-left: 10px;
+
+}
+.container {
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.products-section {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 48px 0;
+}
+
+
+.products-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  list-style: none;
+  max-width: 1000px;
+}
+
+.product {
+  max-width: 24%;
+  padding: 16px;
+  background: #ffffff;
+  box-shadow: 0px 4px 40px -20px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  
+  
+}
+
+
+
+.product .product-main {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 16px 0;
+  
+}
+
+
+.product:hover {
+    border: 2px solid #2E245E ;
+    transition: 1s;
+    
+  }
+
+  .nameItem{
+      font-size: 15px;
+  }
+
+.description{
+    font-size: 10px;
+}
+
+.buttonTodos {
+    font-family: 'Inter', sans-serif;
+    background-color: #f8f8f8;
+    border: 0px;
+    margin-left: 10px;
+}
+
+
+
+.buttonCalcados {
+    font-family: 'Inter', sans-serif;
+    background-color: #f8f8f8;
+    border: 0px;
+    margin-left: 10px;
+}
+
+
+.buttonCamisetas {
+    font-family: 'Inter', sans-serif;
+    background-color: #f8f8f8;
+    border: 0px;
+    margin-left: 10px;
+}
+
+
+
+.buttonAcessorio{
+    font-family: 'Inter', sans-serif;
+    background-color: #f8f8f8;
+    border: 0px;
+    margin-left: 10px;
+
+
+}
+
+
+.buttonTodos:hover{
+
+    font-family: 'Inter', sans-serif;
+    color: #64589e;
+    text-decoration: underline  #2E245E;
+    cursor: pointer;
+    
+}
+
+.buttonCalcados:hover{
+
+    font-family: 'Inter', sans-serif;
+    color: #64589e;
+    text-decoration: underline  #2E245E;
+    cursor: pointer;
+    
+}
+
+.buttonCamisetas:hover{
+
+    font-family: 'Inter', sans-serif;
+    color: #64589e;
+    text-decoration: underline  #2E245E;
+    cursor: pointer;
+    
+}
+
+.buttonAcessorio:hover{
+
+    font-family: 'Inter', sans-serif;
+    color: #64589e;
+    text-decoration: underline  #2E245E;
+    cursor: pointer;
+    
+}
+
+.addCart{
+    font-family: 'Inter', sans-serif;
+    background-color: #ffffff;
+    border: 0px;
+    margin-left: 10px;
+
+
+}
+
+
+.addCart:hover{
+
+    font-family: 'Inter', sans-serif;
+    color: #64589e;
+    text-decoration: underline  #2E245E;
+    cursor: pointer;
+    
+}
+
+.pesquisa{
+    display: flex;
+    justify-content: left;
+    margin-right: 200px;
+    margin-top: 10px;
+    position: relative;
+    
+
+
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    list-style: none;
+    max-width: 1000px;
+}
+
+.campoPesquisa{
+    background-color: #F5F5F5;
+    box-sizing: border-box;
+    position: absolute;
+    width: 246px;
+    height: 50px;
+    left: 1000px;
+    top: 70px;
+   
+    
+
+}
+
+.buttonPesquisa{
+    max-width: 100px;
+    background-color: #37268C;
+    position: absolute;
+    width: 96px;
+    height: 50px;
+    left: 1100x;
+    right: 10px;
+    top: 70px;
+    color: #F5F5F5;
+}
+
+
+.buttonPesquisa:hover{
+    text-decoration: underline  #ffffff;
+    cursor: pointer;
+}
+
+.carrinhoCompra{
+position: absolute;
+width: 347px;
+height: 50px;
+top: 202px;
+background: #37268C;
+color: #ffffff;
+font-family: 'Inter', sans-serif;
+text-align: center;
+margin-top: 10px;
+height: 50px;
+left: 1000px;
+font-weight: 700;
+font-size: 18px;
+line-height: 50px;
+
+
+}
+
+.carrinho {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 82px 95px;
+    gap: 10px;
+    position: absolute;
+    width: 347px;
+    height: 214px;
+    left: 1000px;
+    top: 252px;
+    font-family: 'Inter', sans-serif;
+    line-height: 50px;
+    overflow: scroll;
+    background: #F5F5F5;
+    gap: 16px;
+    padding: 16px 0;
+
+}
+
+.product-carrinho{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 18px;
+    width: 282px;
+    height: 92px;
+    left: 14px;
+    top: 28px;
+
+
+
+}
+
+.img-carrinho{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100px;
+    height: 100px;
+    background: #F5F5F5;
+}
+
+.product-main-carrinho{
+    width: 176px;
+    height: 24px;
+    gap: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+
+}
+
+.removeCart{
+    font-family: 'Inter', sans-serif;
+    background-color: #f8f8f8;
+    border: 0px;
+    margin-left: 10px;
+
+}
+
+.removeCart:hover{
+    text-decoration: underline  #2E245E;
+    cursor: pointer;
+
+}
+
+.valorCarrinho{
+
+position: absolute;
+width: 345px;
+height: 80px;
+left: 1000px;
+top: 450px;
+background: #292929;
+
+
+
+}
+
+.qtd{
+    font-family: 'Inter', sans-serif;
+    color: #F5F5F5;
+}
+.qtdArray{
+    font-family: 'Inter', sans-serif;
+    color: #F5F5F5;
+    position: absolute;
+    left: 300px;
+    right: 8.7%;
+    top: 5.16%;
+    bottom: 31.23%;
+}
+
+
+.valor{
+    font-family: 'Inter', sans-serif;
+    color: #F5F5F5;
+}
+.valorSoma{
+    font-family: 'Inter', sans-serif;
+    color: #F5F5F5;
+    position: absolute;
+    left: 300px;
+    right: 8.7%;
+    top: 25.16%;
+    bottom: 31.23%;
+}
