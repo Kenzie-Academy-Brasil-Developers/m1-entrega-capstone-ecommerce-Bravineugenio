@@ -101,8 +101,8 @@ li {
 
 
 .product:hover {
-    border: 2px solid #2E245E ;
-    transition: 1s;
+    border: 0.5px solid #2E245E ;
+    
     
   }
 
@@ -195,14 +195,14 @@ li {
     right: 35px;
     height: 0px;
     margin-bottom: 10px;
-
+    color: #e94d4d;
 }
 
 
 .addCart:hover{
 
     font-family: 'Inter', sans-serif;
-    color: #64589e;
+    color: #4e2df3;
     text-decoration: underline  #2E245E;
     cursor: pointer;
     
@@ -236,6 +236,7 @@ ul{
     left: 1000px;
     top: 70px;
     border-color: #ffffff;
+    border-radius: 8px;
    
     
 
@@ -248,9 +249,11 @@ ul{
     width: 96px;
     height: 50px;
     left: 1100x;
-    right: -50px;
+    right: -44px;
     top: 70px;
     color: #F5F5F5;
+    position: absolute;
+    border-radius: 4px;
 }
 
 
@@ -308,6 +311,7 @@ line-height: 50px;
     height: 92px;
     left: 14px;
     top: 28px;
+    
 
 
 
@@ -332,8 +336,8 @@ line-height: 50px;
     gap: 10px;
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
+    font-weight: 600;
+    font-size: 10px;
     line-height: 24px;
     color: #333333;
 
@@ -344,6 +348,9 @@ line-height: 50px;
     background-color: #f8f8f8;
     border: 0px;
     margin-left: 10px;
+    position: relative;
+    top:20px;
+    right: 59px
 
 }
 
@@ -389,8 +396,12 @@ background: #292929;
     font-family: 'Inter', sans-serif;
     color: #F5F5F5;
     position: absolute;
-    left: 300px;
+    left: 285px;
     right: 8.7%;
     top: 25.16%;
     bottom: 31.23%;
+}
+
+.value{
+    color: #5544aa;
 }
